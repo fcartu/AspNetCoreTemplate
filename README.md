@@ -1,6 +1,29 @@
 # AspNetCoreTemplate
 A basic ASP.NET Core template to use with dotnet CLI.
 
+This template create a complete solution for an ASP.NET MVC Core application, including a xUnit test project. You can use it with Visual Studio for Mac, Visual Studio Code and Visual Studio 2017.
+
+File structure:
+
+    +-- AspNetCore.WebxUnit.sln
+    +-- src
+    |   +-- AspNetCore.WebxUnit
+    |       +-- Controllers
+    |       +-- Views
+    |       +-- wwwroot
+    |       +-- .bowerrc
+    |       +-- AspNetCore.WebxUnit.csproj
+    |       +-- Program.cs
+    |       +-- Startup.cs
+    |       +-- appsettings.Development.json
+    |       +-- appsettings.json
+    |       +-- bower.json
+    |       +-- bundleconfig.json
+    +-- test
+    |   +-- AspNetCore.WebxUnit.Test
+    |       +-- AspNetCore.WebxUnit.Test.csproj
+    |       +-- UnitTest1.cs
+
 
 ## How to install it
 
