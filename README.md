@@ -1,7 +1,7 @@
 # AspNetCoreTemplate
 A basic ASP.NET Core template to use with dotnet CLI.
 
-This template create a complete solution for an ASP.NET MVC Core application, including a xUnit test project. You can use it with Visual Studio for Mac, Visual Studio Code and Visual Studio 2017.
+This template create a complete solution for an ASP.NET MVC Core application, including a xUnit test project. You can use the resulting project inside Visual Studio for Mac, Visual Studio Code and Visual Studio 2017.
 
 File structure:
 
