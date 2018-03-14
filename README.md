@@ -8,17 +8,15 @@ File structure:
     +-- AspNetCore.WebxUnit.sln
     +-- src
     |   +-- AspNetCore.WebxUnit
-    |       +-- Controllers
-    |       +-- Views
+    |       +-- Features
+    |           +-- Home
+    |           +-- Shared
     |       +-- wwwroot
-    |       +-- .bowerrc
     |       +-- AspNetCore.WebxUnit.csproj
     |       +-- Program.cs
     |       +-- Startup.cs
     |       +-- appsettings.Development.json
     |       +-- appsettings.json
-    |       +-- bower.json
-    |       +-- bundleconfig.json
     +-- test
     |   +-- AspNetCore.WebxUnit.Test
     |       +-- AspNetCore.WebxUnit.Test.csproj
