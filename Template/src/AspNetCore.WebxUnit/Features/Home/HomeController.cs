@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AspNetCore.WebxUnit.Controllers
+namespace AspNetCore.WebxUnit.Features.Home
 {
     public class HomeController : Controller
     {
