@@ -3006,6 +3006,19 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "OdeToCode.AddFeatureFolders/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Razor": "2.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/OdeToCode.AddFeatureFolders.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/OdeToCode.AddFeatureFolders.dll": {}
+        }
+      },
       "Remotion.Linq/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -5245,7 +5258,8 @@
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.5",
-          "Microsoft.NETCore.App": "2.0.0"
+          "Microsoft.NETCore.App": "2.0.0",
+          "OdeToCode.AddFeatureFolders": "2.0.1"
         },
         "compile": {
           "bin/placeholder/AspNetCore.WebxUnit.dll": {}
@@ -8303,6 +8317,18 @@
         "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.1.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "OdeToCode.AddFeatureFolders/2.0.1": {
+      "sha512": "aZ2P4MG3YGvckSPMhxewAFHUme0g9Tvz5ug9NthmwI0yem4Qk4q3skahAYHyvdkvmfUKHn9Bp94F94YfyWfHLw==",
+      "type": "package",
+      "path": "odetocode.addfeaturefolders/2.0.1",
+      "files": [
+        "lib/net452/OdeToCode.AddFeatureFolders.dll",
+        "lib/netstandard1.6/OdeToCode.AddFeatureFolders.dll",
+        "lib/netstandard2.0/OdeToCode.AddFeatureFolders.dll",
+        "odetocode.addfeaturefolders.2.0.1.nupkg.sha512",
+        "odetocode.addfeaturefolders.nuspec"
       ]
     },
     "Remotion.Linq/2.1.1": {
