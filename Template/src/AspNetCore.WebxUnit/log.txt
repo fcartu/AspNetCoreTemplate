@@ -1,2 +1,0 @@
-2018-03-15 13:13:45.642 -05:00 [INF] User profile is available. Using 'C:\Users\fcartusciello\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
-2018-03-15 13:46:51.299 -05:00 [INF] User profile is available. Using 'C:\Users\fcartusciello\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
