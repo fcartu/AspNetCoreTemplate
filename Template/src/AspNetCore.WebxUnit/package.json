@@ -1,0 +1,23 @@
+{
+  "name": "aspnetcore.webxunit",
+  "version": "1.0.0",
+  "description": "ASP.NET MVC Core Web Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aspnet",
+    "core",
+    "dotnet",
+    "c#",
+    "mvc",
+    "web"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "3.3.1",
+    "bootstrap": "3.3.7"
+  }
+}
