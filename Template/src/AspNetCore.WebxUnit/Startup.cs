@@ -28,7 +28,6 @@ namespace AspNetCore.WebxUnit
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseBrowserLink();
             }
             else
             {

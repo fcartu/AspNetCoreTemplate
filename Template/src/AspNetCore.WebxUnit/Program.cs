@@ -27,13 +27,12 @@ namespace AspNetCore.WebxUnit
                 .WriteTo.File("log.txt")
                 .CreateLogger();
 
-            BuildWebHost(args).Run();
+            CreateWebHostBuilder(args).Build().Run();
         }
 
-        public static IWebHost BuildWebHost(string[] args) =>
+        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
-                .UseSerilog()
-                .Build();
+                .UseSerilog();
     }
 }
